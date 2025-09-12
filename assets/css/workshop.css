@@ -23,6 +23,13 @@ div.speaker p.speaker-bio {
   padding: 0;
 }
 
+.people-pic-small {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 10%;
+  padding: 0;
+}
+
 .people-name {
   margin: 10px 0 10px;
 }

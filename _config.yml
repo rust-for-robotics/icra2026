@@ -21,13 +21,11 @@
 title: Rust for Robotics
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for the workshop site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Rust for Robotics ICRA 2026
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rethinkmlpapers
-github_username:  rethinkmlpapers
+# twitter_username: rethinkmlpapers
+# github_username:  rethinkmlpapers
 
 # Build settings
 plugins:
@@ -52,8 +50,7 @@ header_pages:
 
 # A two-line attribution (remove this if you have to, but we'd appreciate if you leave this as is)
 attribution: >
-  Based on a <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> template from a <a href="https://krrish94.github.io">lazy grad student</a>.
-  Some icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+  Based on a template from <a href="https://krrish94.github.io">krrish94</a>.
 
 # Displays a "last updated" date in the footer if set to "true"
 last_updated: true
