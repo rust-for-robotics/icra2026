@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Call for papers
+title: Call for Contributions
 permalink: /callforpapers/
 ---
 
-Your call for papers goes here.
+    

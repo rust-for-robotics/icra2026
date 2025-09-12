@@ -11,7 +11,7 @@ affil: Buzz University
 affil_link: https://buzz.edu
 
 # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
-img: jane.jpg
+# img: jane.jpg
 
 # (Optional) Secondary affiliation of the speaker
 affil2: BuzzFizz Corp

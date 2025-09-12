@@ -32,12 +32,21 @@ layout: default
 		            		{{ organizer.name }}
 		            	{% endif %}
 		                <br>
+
+						<!-- organizer role (if provided) -->
+						{% if organizer.role %}
+							{{ organizer.role }}
+							<br>
+		                {% endif %}
+
 		                <!-- organizer affiliation (if provided) -->
 		                {% if organizer.affil_link %}
 		                	<a href="{{ organizer.affil_link }}" target="_blank">{{ organizer.affil }}</a>
 		                {% else %}
 		                	{{ organizer.affil }}
 		                {% endif %}
+
+
 		                <!-- Additional organizer affiliation (if provided) -->
 		                {% if organizer.affil2_link %}
 		                	<br>

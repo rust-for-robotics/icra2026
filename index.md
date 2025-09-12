@@ -20,3 +20,5 @@ The theme is quite easy to use if you're familiar with Jekyll. The following col
 > **NOTE:** The best way to use these is to turn feature on or off by editing the `collections` attribute in `_config.yml`.
 
 If you experience issues or have cool features to add, feel free to [fork this template]().
+
+hello there!
