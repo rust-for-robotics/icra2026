@@ -14,7 +14,7 @@ layout: default
 		    <tr style="border: none;">
 		        <td style="border: none;">
 		            <div class="col-xs-12">
-		                <p align="center">
+		                <p align="right">
 		                	{% if organizer.img %}
 		                    	<img class="people-pic" src="{{ organizer.img | prepend: '/assets/img/organizers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
 		                    {% else %}
@@ -24,7 +24,7 @@ layout: default
 		            </div>
 		        </td>
 		        <td style="border: none;">
-		            <div class="people-name text-center">
+		            <div class="people-name text-left">
 		            	<!-- organizer name (link to webpage if provided) -->
 		            	{% if organizer.webpage %}
 		            		<a href="{{ organizer.webpage }}" target="_blank">{{ organizer.name }}</a>

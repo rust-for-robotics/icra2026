@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Rust for Robotics
-email: your-email@example.com
+title: Rust for Robotics Workshop
+email: potokar@cmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Rust for Robotics ICRA 2026
 baseurl: "" # the subpath of your site, e.g. /blog
