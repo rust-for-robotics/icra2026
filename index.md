@@ -10,10 +10,10 @@ layout: home
 
 <div class="img-wrapper">
 <div class="img-container">
-    <img src="/assets/img/icra.png" height="125"/>
+    <img src="{{ site.baseurl }}/assets/img/icra.png" height="125"/>
 </div>
 <div class="img-container">
-    <img class="middle-img" src="/assets/img/rust.png" height="125"/>
+    <img class="middle-img" src="{{ site.baseurl }}/assets/img/rust.png" height="125"/>
 </div>
 </div>
 
@@ -36,7 +36,7 @@ Rust has a number of features that make it particularly well-suited for robotics
 
 <div class="code-grid">
   <div>
-    <img src="/assets/img/code/memory.png"/>
+    <img src="{{ site.baseurl }}/assets/img/code/memory.png"/>
   </div>
 
   <div>
@@ -45,7 +45,7 @@ Rust has a number of features that make it particularly well-suited for robotics
   </div>
 
   <div>
-    <img src="/assets/img/code/memory.png"/>
+    <img src="{{ site.baseurl }}/assets/img/code/memory.png"/>
   </div>
 
   <div>
@@ -54,7 +54,7 @@ Rust has a number of features that make it particularly well-suited for robotics
   </div>
 
   <div>
-    <img src="/assets/img/code/multithreading.png"/>
+    <img src="{{ site.baseurl }}/assets/img/code/multithreading.png"/>
   </div>
 
   <div>
@@ -63,7 +63,7 @@ Rust has a number of features that make it particularly well-suited for robotics
   </div>
 
   <div>
-    <img src="/assets/img/code/multi-arch.png"/>
+    <img src="{{ site.baseurl }}/assets/img/code/multi-arch.png"/>
   </div>
 
   <div>
@@ -72,7 +72,7 @@ Rust has a number of features that make it particularly well-suited for robotics
   </div>
 
   <div>
-    <img src="/assets/img/code/tooling.png" height="200px"/>
+    <img src="{{ site.baseurl }}/assets/img/code/tooling.png" height="200px"/>
   </div>
 
   <div>
