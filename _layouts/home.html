@@ -4,7 +4,11 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="post-title">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {%- if page.subtitle -%}
+    <h5 class="post-content" style="text-align: center;">{{ page.subtitle }}</h5>
   {%- endif -%}
 
   {{ content }}

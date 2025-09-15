@@ -1,8 +1,8 @@
 ---
 sequence_id: 7
-speaker: Panel
+speaker: TBD
 time: 11:30 – 12:30
-title: TBD
+title: "Panel: TOPIC TBD"
 # webpage: https://jane.doe
 # affil: Buzz University
 # affil_link: https://buzz.edu

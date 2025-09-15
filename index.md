@@ -3,22 +3,80 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: Home
+title: "Rust for Robotics: Insert Final Name"
+subtitle: "ICRA 2026 Workshop | Monday, June 1, 2026 | 8:00 AM - 5:30 PM"
 layout: home
 ---
 
-Hi there! Here's the lazy grad student's template for workshop webpages. I put this together to help automate mundane tasks with conventional workshop webpages - curating lists of speakers and/or organizers, schedules, and submitted/accepted papers. Here's a completely unrelated picture adapted from "Machine Learning & Artificial Intelligence" by `mikemacmarketing`; licensed under CC BY 2.0:
+<div class="img-wrapper">
+<div class="img-container">
+    <img src="/assets/img/icra.png" height="125"/>
+</div>
+<div class="img-container">
+    <img class="middle-img" src="/assets/img/rust.png" height="125"/>
+</div>
+</div>
 
-![](assets/img/banner.jpg)
+This full-day workshop will cover the potential value of Rust to solve current challenges in robotics software development. Led by industry leaders, academics, and open-source contributors, the workshop will cover
+- Rust's value proposition for robotics, 
+- Adoption challenges with legacy systems, 
+- Role in research and education, 
+- The robotics Rust ecosystem, and 
+- Potential for future growth. 
+ 
+Participants, including those unfamiliar with Rust, will gain a better understanding of how Rust can aid in developing robust robotics systems through presentations, interactive code demonstrations, panels, and poster sessions. Targeting software engineers, researchers, educators, and students, this workshop is focused on helping progress the adoption and development of robotics software written in Rust, thereby helping catalyze a shift towards safer and more reliable autonomous systems.
 
-The theme is quite easy to use if you're familiar with Jekyll. The following collections are implemented:
-1. **Speakers**: Curate a [speaker list like this one](speakers) from a set of markdown files, one per speaker. Crops and displays images if available. Adds a short bio. See files in the `_speakers` directory for examples.
-2. **Organizers**: Curate an organizer list from a set of markdown files, one per organizer. See files in the `_organizers` directory for examples.
-3. **Schedule**: Curate a [schedule like this](schedule) from a set of markdown files, one per event (talk, panel, break, etc.). See files in the `_schedule` directory for examples. Schedule items are sorted by a `sequence_id` attribute.
-4. **Papers**: Curate a [list of papers like this](papers) from a bunch of markdown files, one per paper. See files in the `_papers` directory for examples. Papers are sorted by a `sequence_id` attribute if specifed (else they are listed alphabetically).
+This workshop will include 8 invited talks, a panel discussion, an "unconference" session, and a poster session.
+<br>
+<br>
 
-> **NOTE:** The best way to use these is to turn feature on or off by editing the `collections` attribute in `_config.yml`.
+### Why Rust for Robotics?
 
-If you experience issues or have cool features to add, feel free to [fork this template]().
+Rust has a number of features that make it particularly well-suited for robotics applications, including:
 
-hello there!
+<div class="code-grid">
+  <div>
+    <img src="/assets/img/code/memory.png"/>
+  </div>
+
+  <div>
+    <h5> Memory Safety</h5>
+    Rust's ownership model ensures memory safety without a garbage collector, reducing the risk of memory leaks and segmentation faults, which are critical in real-time robotics applications.
+  </div>
+
+  <div>
+    <img src="/assets/img/code/memory.png"/>
+  </div>
+
+  <div>
+    <h5>Concurrency</h5>
+    "Fearless concurrency" is a core trait of Rust and makes it remarkably easy to develop concurrent applications that handle intensive I/O operations efficiently.
+  </div>
+
+  <div>
+    <img src="/assets/img/code/multithreading.png"/>
+  </div>
+
+  <div>
+    <h5>Multithreading</h5>
+    Rust design makes it super easy to develop multithreaded applications. It's going to be a breath of fresh air compared to C/C++ MPI, or fighting against Python Global Interpreter Lock(GIL)
+  </div>
+
+  <div>
+    <img src="/assets/img/code/multi-arch.png"/>
+  </div>
+
+  <div>
+    <h5>Multi-Architecture Support</h5>
+    Building an application compiled for a specific architecture has never been so easy!
+  </div>
+
+  <div>
+    <img src="/assets/img/code/tooling.png" height="200px"/>
+  </div>
+
+  <div>
+    <h5>Tooling</h5>
+    Rust's tooling ecosystem is robust and user-friendly, making it easy to manage dependencies, build projects, and integrate with other systems. Tools like Cargo simplify package management and project setup, while Clippy and Rustfmt help maintain code quality and consistency.
+  </div>
+</div>

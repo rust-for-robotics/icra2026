@@ -16,6 +16,32 @@ div.speaker p.speaker-bio {
   margin-top: 1em;
 }
 
+.page-heading,
+.post-title {
+  text-align: center;
+}
+
+.img-container {
+  float: left;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.img-wrapper {
+  content: "";
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+.code-grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
 .people-pic {
   max-width: 150px;
   max-height: 150px;
