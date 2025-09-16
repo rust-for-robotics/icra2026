@@ -16,6 +16,19 @@ div.speaker p.speaker-bio {
   margin-top: 1em;
 }
 
+.organizer-grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width:1000px) {
+  .organizer-grid {
+    grid-template-columns: 1fr 1.75fr;
+  }
+}
+
 .page-heading,
 .post-title {
   text-align: center;
