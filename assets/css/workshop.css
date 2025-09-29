@@ -55,6 +55,12 @@ div.speaker p.speaker-bio {
   gap: 20px;
 }
 
+@media (max-width:1000px) {
+  .code-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .people-pic {
   max-width: 150px;
   max-height: 150px;

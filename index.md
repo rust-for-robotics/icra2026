@@ -10,12 +10,16 @@ layout: home
 
 <div class="img-wrapper">
 <div class="img-container">
-    <img src="{{ site.baseurl }}/assets/img/icra.png" height="125"/>
+    <img src="{{ site.baseurl }}/assets/img/icra.png" height="100" style="object-fit: contain;"/>
 </div>
 <div class="img-container">
-    <img class="middle-img" src="{{ site.baseurl }}/assets/img/rust.png" height="125"/>
+    <img class="middle-img" src="{{ site.baseurl }}/assets/img/rust.png" height="100" style="object-fit: contain;"/>
 </div>
 </div>
+
+<p style="font-style: italic; text-align: center; font-size: 0.8em;">
+  Rust for Robotics is not officially affiliated with the Rust Foundation.
+</p>
 
 This full-day workshop will cover the potential value of Rust to solve current challenges in robotics software development. Led by industry leaders, academics, and open-source contributors, the workshop will cover
 - Rust's value proposition for robotics, 
@@ -36,7 +40,7 @@ Rust has a number of features that make it particularly well-suited for robotics
 
 <div class="code-grid">
   <div>
-    <img src="{{ site.baseurl }}/assets/img/code/memory.png"/>
+    <img src="{{ site.baseurl }}/assets/img/code/memory.png" style="object-fit: contain;"/>
   </div>
 
   <div>
@@ -45,7 +49,7 @@ Rust has a number of features that make it particularly well-suited for robotics
   </div>
 
   <div>
-    <img src="{{ site.baseurl }}/assets/img/code/memory.png"/>
+    <img src="{{ site.baseurl }}/assets/img/code/memory.png" style="object-fit: contain;"/>
   </div>
 
   <div>
@@ -54,7 +58,7 @@ Rust has a number of features that make it particularly well-suited for robotics
   </div>
 
   <div>
-    <img src="{{ site.baseurl }}/assets/img/code/multithreading.png"/>
+    <img src="{{ site.baseurl }}/assets/img/code/multithreading.png" style="object-fit: contain;"/>
   </div>
 
   <div>
@@ -63,7 +67,7 @@ Rust has a number of features that make it particularly well-suited for robotics
   </div>
 
   <div>
-    <img src="{{ site.baseurl }}/assets/img/code/multi-arch.png"/>
+    <img src="{{ site.baseurl }}/assets/img/code/multi-arch.png" style="object-fit: contain;"/>
   </div>
 
   <div>
@@ -72,7 +76,7 @@ Rust has a number of features that make it particularly well-suited for robotics
   </div>
 
   <div>
-    <img src="{{ site.baseurl }}/assets/img/code/tooling.png" height="200px"/>
+    <img src="{{ site.baseurl }}/assets/img/code/tooling.png" height="200px" style="object-fit: contain;"/>
   </div>
 
   <div>
