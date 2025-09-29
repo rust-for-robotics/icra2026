@@ -49,7 +49,7 @@ Rust has a number of features that make it particularly well-suited for robotics
   </div>
 
   <div>
-    <img src="{{ site.baseurl }}/assets/img/code/memory.png" style="object-fit: contain;"/>
+    <img src="{{ site.baseurl }}/assets/img/code/concurrency.png" style="object-fit: contain;"/>
   </div>
 
   <div>
