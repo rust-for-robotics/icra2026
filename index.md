@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: "Rust for Robotics: Insert Final Name"
+title: "Rust for Robotics:<br/>Practical Pathways Through the Emerging Ecosystem"
 subtitle: "ICRA 2026 Workshop | Monday, June 1, 2026 | 8:00 AM - 5:30 PM"
 layout: home
 ---

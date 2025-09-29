@@ -16,7 +16,7 @@ The **Rust for Robotics** workshop at ICRA 2025 invites high-quality contributio
 
 If possible, we recommend including a live demonstration of said library, system, or application.
 
-TODO: How to advertise the "flash presentation" portion of the poster session. Probably don't want to advertise that till after the submission deadline?
+<!-- TODO: How to advertise the "flash presentation" portion of the poster session. Probably don't want to advertise that till after the submission deadline? -->
 
 ## Submission Guidelines
 
@@ -32,14 +32,14 @@ Submission format:
 
 ## Submission Process
 
-All submissions must be made to [OpenReview](todo make link). Submissions must include:
+All submissions must be made to OpenReview. Submissions must include:
 - Required: Upload a PDF containing the extended abstract.
 - Optional: Upload a ZIP file (up to 100MB) with any supplementary material (such as a video presentation).
 
-Please direct any questions to the workshop organizers at TODO.
+<!-- Please direct any questions to the workshop organizers at TODO. -->
 
 ## Important Dates (AoE)
-- Submission deadline: TODO
-- Notification of acceptance: TODO
-- Camera-ready deadline: TODO
+- Submission deadline: TBD
+- Notification of acceptance: TBD
+- Camera-ready deadline: TBD
 - Workshop date: June 1, 2025
