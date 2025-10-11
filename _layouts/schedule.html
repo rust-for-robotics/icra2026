@@ -10,7 +10,7 @@ layout: default
 
   <div class = "post-content">
 	<p style="font-weight: bold;">Morning Session:</p>
-	<table>
+	<table style="width: 100%; table-layout: fixed;">
 		{% for scheduleitem in site.schedule %}
 			{% if scheduleitem.sequence_id <= 8 %}
 				{% include schedule_item.html scheduleitem=scheduleitem %}
@@ -19,7 +19,7 @@ layout: default
 	</table>
 
 	<p style="font-weight: bold;">Afternoon Session:</p>
-	<table>
+	<table style="width: 100%; table-layout: fixed">
 		{% for scheduleitem in site.schedule %}
 			{% if scheduleitem.sequence_id > 8 %}
 				{% include schedule_item.html scheduleitem=scheduleitem %}

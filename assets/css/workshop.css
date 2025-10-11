@@ -29,6 +29,25 @@ div.speaker p.speaker-bio {
   }
 }
 
+@media (max-width:1000px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+.talk-title {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+@media (max-width:1000px) {
+  .talk-title {
+    font-size: 1em;
+    font-weight: normal;
+  }
+}
+
 .page-heading,
 .post-title {
   text-align: center;

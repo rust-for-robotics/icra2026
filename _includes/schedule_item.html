@@ -1,28 +1,29 @@
 {%- assign scheduleitem = include.scheduleitem -%}
 
 <tr>
-	<td>
-		<p align="center">
-			{{ scheduleitem.time }}
-		</p>
+	<td style="width: 15%">
+		<div class="col-xs-12">
+			<p align="center">
+				{{ scheduleitem.time }}
+			</p>
+		</div>
 	</td>
-	<td>
+	<td class="hide-mobile" style="width: 10%">
 		<div class="col-xs-12">
 			<p align="center">
 				{% if scheduleitem.img %}
 					<img class="people-pic-small" src="{{ scheduleitem.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
-				{% else %}
-					<img class="people-pic-small" src="{{ 'avatar.jpg' | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
 				{% endif %}
 			</p>
 		</div>
 	</td>
-	<td align="center">
+	<td align="center" style="width: 60%">
 		<div class="col-xs-12">
-			<b>{{ scheduleitem.title }}</b>
+			<p class="talk-title">{{ scheduleitem.title }}</p>
+			<div class="hide-mobile" style="text-align: center; font-size: 0.9em;">{{ scheduleitem.content }}</div>
 		</div>
 	</td>
-	<td>
+	<td style="width: 15%">
 		<div class="people-name text-center">
 			<!-- scheduleitem name (link to webpage if provided) -->
 			{% if scheduleitem.webpage %}
